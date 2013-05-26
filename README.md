@@ -3,15 +3,14 @@ Startup-USA
 
 ## [List of Companies]
 
-Instructions:
-* Load crunch.php on the web server.
-	> Press "Companies" to generate a list of companies
-	> * please limit the amount to 5000, see "crunch.js" for more info.
-	> For best way of copying the list of companies displayed on screen:
-	> * install xpath for your respective browser
-	> * the list of companies are wrapped in a div tag with id set to "display_all"
-	> * write the following in xpath: //div[@id="display_all"]/text()
-	> * copy and paste the list of companies in the box selected by xpath
+Load crunch.php on the web server.
+	* Press "Companies" to generate a list of companies
+	> please limit the amount to 5000, see "crunch.js" for more info.
+	* For best way of copying the list of companies displayed on screen:
+	> install xpath for your respective browser
+	> the list of companies are wrapped in a div tag with id set to "display_all"
+	> write the following in xpath: //div[@id="display_all"]/text()
+	> copy and paste the list of companies in the box selected by xpath
 
 * Load crunch_json.php on the web server
 	> * Input the copied list of companies into the text box and press enter
