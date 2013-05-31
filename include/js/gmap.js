@@ -75,7 +75,7 @@ function makeInfoWindowEvent(infowindow, marker){
         infowindow.open(map, marker);
     });
 }
-/*takes address and convers to coordinates*/
+/*takes String address and convers to coordinates*/
 function convertCord(){
     var geocoder = new google.maps.Geocoder();
     var address = 'New York, NY';
